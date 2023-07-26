@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
 }
 body{
@@ -126,6 +125,7 @@ header .navegacao{
     grid-template-columns: 4fr 1fr;
     gap: 8px;
     padding-bottom: 5px;
+    list-style: none;
 }
 
 .section-redes{
@@ -142,6 +142,7 @@ header .navegacao{
     display: flex;
     gap: 10px;
     align-items: center;
+    list-style: none;
 }
 
 .section-redes li a {
@@ -160,4 +161,33 @@ header .navegacao{
 
 .section-redes li a:hover {
     color: rgb(13, 218, 105);
+}
+
+.section-trajetoria{
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: space-around;
+    padding: 60px;
+    border-bottom: solid 1px #771356;
+    padding-bottom: 150px;
+}
+
+.section-trajetoria h2{
+    font-family: 'poppins';
+    align-items: center;
+    color: rgb(13, 218, 105);
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.section-trajetoria ul li{
+    font-family: 'poppins';
+    gap: 20px;
+    font-size: 18px;
+}
+
+.section-trajetoria ul{
+    
+
 }
